@@ -1,0 +1,113 @@
+/* reset */
+
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  line-height: 1.375;
+  color: #2B292D;
+  letter-spacing: -0.01em;
+}
+
+a {
+  text-decoration: none;
+}
+
+input,
+button,
+textarea {
+  font-family: 'DM Sans', sans-serif;
+}
+
+ul, ol, dl {
+  padding: 0;
+}
+
+li {
+  list-style-type: none;
+}
+
+button {
+  border: 0;
+}
+
+.common-btn {
+  width: 140px;
+  line-height: 48px;
+  background-color: #3040C4;
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+  font-weight: 700;
+  letter-spacing: -0.05em;
+}
+
+.common-btn.inverted {
+  background-color: #fff;
+  color: #3040C4;
+}
+
+/* landing */
+
+.landing {
+  padding: 154px 4%; 
+  background-color: #FDDED8;
+  text-align: center;
+}
+
+.landing-title {
+  margin-bottom: 24px;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: -0.05em;
+}
+
+.landing-desc {
+  margin-bottom: 24px;
+}
+
+.btn-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.landing .common-btn {
+  margin-right: 8px;
+}
+
+
+/* >= 768px */
+@media screen and (min-width: 768px) {
+  /* reset */
+  body {
+    font-size: 22px;
+    line-height: 1.45454545;
+  }
+
+  .common-btn {
+    width: 160px;
+    line-height: 56px;
+    font-size: 18px;
+  }
+
+  /* landing */
+  .landing {
+    padding: 120px auto; 
+  }
+
+  .landing-title {
+    margin-bottom: 32px;
+    font-size: 70px;
+    line-height: 1.0285714;
+  }
+
+  .landing-desc {
+    margin-bottom: 32px;
+  }
+}
