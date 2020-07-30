@@ -110,4 +110,8 @@ button {
   .landing-desc {
     margin-bottom: 32px;
   }
+
+  .landing .common-btn {
+    margin-right: 16px;
+  }
 }
