@@ -1,5 +1,4 @@
 /* reset */
-
 * {
   margin: 0;
   box-sizing: border-box;
@@ -70,7 +69,6 @@ button {
 }
 
 /* landing */
-
 .landing {
   padding: 154px 4%; 
   background-color: #FDDED8;
@@ -100,7 +98,6 @@ button {
 }
 
 /* service */
-
 .service {
   padding: 80px 5%;
   background-color: #F4F5F7;
@@ -127,9 +124,7 @@ button {
   letter-spacing: -0.04em;
 }
 
-
 /* program */
-
 .program {
   padding: 80px 5%;
 }
@@ -168,7 +163,6 @@ button {
 }
 
 /* curriculum */
-
 .curriculum {
   padding: 80px 5%;
 }
@@ -199,7 +193,6 @@ button {
 }
 
 /* subscribe */
-
 .subscribe {
   padding: 40px 5%;
   background-color: #F2F8FA;
@@ -250,6 +243,22 @@ button {
   color: #3040C4;
   text-decoration: underline;
 }
+
+/* footer */
+.footer {
+  padding: 24px 5%;
+}
+
+.footer-link li:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.footer-link li a{
+  font-size: 14px;
+  color: #807F81;
+  line-height: 1.714285;
+}
+
 
 /* >= 768px */
 @media screen and (min-width: 768px) {
@@ -447,6 +456,20 @@ button {
   .subscribe-misc {
     font-size: 14px;
     line-height: 1.714285;
+  }
+
+  /* footer */
+  .footer {
+    padding: 16px 0;
+  }
+
+  .footer-link {
+    display: flex;
+  }
+
+  .footer-link li:not(:last-child) {
+    margin-right: 16px;
+    margin-bottom: 0;
   }
 
 }
