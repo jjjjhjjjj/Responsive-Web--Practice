@@ -51,6 +51,7 @@ button {
   color: #3040C4;
 }
 
+
 /* landing */
 
 .landing {
@@ -81,6 +82,29 @@ button {
   margin-right: 8px;
 }
 
+/* service */
+
+.service {
+  padding: 80px 5%;
+  background-color: #F4F5F7;
+}
+
+.service .container {
+  display: flex;
+  flex-direction: column;
+}
+
+.service .box:first-child {
+  margin-bottom: 40px;
+}
+
+.service-title {
+  margin-bottom: 16px;
+  font-size: 22px;
+  font-weight: 700;
+  line-height: 1.363636;
+  letter-spacing: -0.04em;
+}
 
 /* >= 768px */
 @media screen and (min-width: 768px) {
@@ -94,6 +118,11 @@ button {
     width: 160px;
     line-height: 56px;
     font-size: 18px;
+  }
+
+  .layout-960 {
+    max-width: 960px;
+    margin: 0 auto;
   }
 
   /* landing */
@@ -113,5 +142,28 @@ button {
 
   .landing .common-btn {
     margin-right: 16px;
+  }
+
+  /* service */
+  .service {
+    padding: 80px 5% 88px;
+  }
+  
+  .service .container {
+    flex-direction: row;
+  }
+
+  .service .box:first-child {
+    max-width: 370px;
+    margin-right: 110px;
+    margin-bottom: 0;
+  }
+  
+  .service-title {
+    margin-bottom: 16px;
+    font-size: 22px;
+    font-weight: 700;
+    line-height: 1.363636;
+    letter-spacing: -0.04em;
   }
 }
